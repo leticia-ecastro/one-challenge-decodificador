@@ -1,4 +1,4 @@
-![thumbnail-decodificador](https://github.com/leticia-ecastro/projetos-one-t6/assets/107160518/0ea80f49-49a7-41fe-959e-d4a6dcc47c77)
+![thumbnail-decodificador](https://github.com/leticia-ecastro/one-challenge-decodificador/assets/107160518/41af2383-7346-4bf0-a764-f832f14d032b)
 
 <h1 align="center">:star: Challenge ONE: Decodificador de Textos</h1>
 <p align="justify"> <h2>:rocket: Objetivo:</h2>
