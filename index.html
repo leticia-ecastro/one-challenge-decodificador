@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Decodificador de Texto</title>
+</head>
+
+<body>
+  <header>
+    <img src="img/one-alura.png" alt="Logotipo Alura" />
+    <h1>Decodificador</h1>
+  </header>
+
+  <main class="conteudo">
+    <section class="decodificador">
+      <div class="entrada">
+        <textarea id="texto" class="campo" cols="30" rows="10" placeholder="Digite seu texto"></textarea>
+        <p class="aviso">*<strong>ATENÇÃO:</strong> Apenas letras minúsculas e sem acentos!</p>
+      </div>
+    </section>
+
+    <section class="botoes">
+      <button onclick="criptografar()" class="criptografar">Criptografar</button>
+      <button onclick="descriptografar()" class="descriptografar">Descriptografar</button>
+      <button onclick="limparCampo()" class="limpar">Limpar</button>
+      <button onclick="copiar()" class="copiar">Copiar</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>Desenvolvido por <strong>Letícia Castro</strong>.</p>
+    <div>
+      <a href="https://linkedin.com/in/leticia-ecastro">
+        <img src="img/linkedin.png" alt="Ícone do LinkedIn" />
+      </a>
+      <a href="https://github.com/leticia-ecastro">
+        <img src="img/github.png" alt="Ícone do GitHub" />
+      </a>
+      <a href="https://instagram.com/leticia_ecastro">
+        <img src="img/instagram.png" alt="Ícone do Instagram" />
+      </a>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
